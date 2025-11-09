@@ -11,7 +11,10 @@ function App() {
       <ToastProvider>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/explorer" element={<Explorer />} />
+          <Route path="explorer">
+            <Route index element={<Explorer />} />
+            <Route path=":folderPath" element={<Explorer />} />
+          </Route>
         </Routes>
       </ToastProvider>
     </StoreProvider>
