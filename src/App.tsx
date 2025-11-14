@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import Explorer from "./pages/explorer";
 import { ToastProvider } from "./contexts/ToastContext";
 import { StoreProvider } from "./contexts/StoreContext";
+import ViewPdf from "./pages/viewPdf";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Route index element={<Explorer />} />
             <Route path=":folderPath" element={<Explorer />} />
           </Route>
+          <Route path="/pdfViewer/:pdfPath" element={<ViewPdf />} />
         </Routes>
       </ToastProvider>
     </StoreProvider>

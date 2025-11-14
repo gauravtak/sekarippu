@@ -57,17 +57,15 @@ export default function Explorer() {
   }, [store, folderPath]);
 
   const handleDirClick = (name: string) => {
-    // Construct the new path
     const newPath = currentPath ? `${currentPath}/${name}` : name;
-    // Encode the path for URL
     const encodedPath = encodeURIComponent(newPath);
-    // Navigate to the new path
     navigate(`/explorer/${encodedPath}`);
   };
 
-  const handleFileClick = (name: string) => {
-    console.log("File clicked:", name);
-    // TODO: Handle file click (e.g., open file, show preview, etc.)
+  const handleFileClick = (pdfPath: string) => {
+    const newFilePath = `${currentPath}/${pdfPath}`;
+    const encodedPath = encodeURIComponent(newFilePath);
+    navigate(`/pdfViewer/${encodedPath}`);
   };
 
   const handleBackClick = () => {
