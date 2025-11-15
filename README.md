@@ -2,7 +2,12 @@
 
 Your local book manager
 
+## Explorer
+
 <img width="1349" height="547" alt="image" src="https://github.com/user-attachments/assets/a79b3ac9-fd82-42f0-9cfd-0f1902b9e06a" />
+
+## PDF Viewer
+<img width="900" height="902" alt="image" src="https://github.com/user-attachments/assets/bcc4549a-7fe9-4672-9899-abe5d3c4f0ec" />
 
 
 # Color Pallete
