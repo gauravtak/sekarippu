@@ -2,6 +2,8 @@
 
 Your local book manager
 
+Your folder should be inside **HOME**
+
 ## Explorer
 
 <img width="1349" height="547" alt="image" src="https://github.com/user-attachments/assets/a79b3ac9-fd82-42f0-9cfd-0f1902b9e06a" />
